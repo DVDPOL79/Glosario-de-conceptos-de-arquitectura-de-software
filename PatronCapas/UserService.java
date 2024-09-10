@@ -14,6 +14,6 @@ public class UserService {
     }
 
     public void listUsers() {
-        System.out.println("Productos a la venta " + userRepository.getUsers());
+        System.out.println("Productos a la venta: " + userRepository.getUsers());
     }
 }
