@@ -65,10 +65,10 @@ public class MasterSlave {
     public static void main(String[] args) {
         try {
             Master master = new Master(4); // Crear un maestro con 4 esclavos
-            List<Integer> numbers = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
-            int chunkSize = 3;
-            int result = master.processNumbers(numbers, chunkSize);
-            System.out.println("El resulatado de la suma es: " + result);
+             List<Integer> numbers = List.of(12, 8, 73, 64, 2, 23, 57, 104, 11, 99);
+             int chunkSize = 3;
+             int result = master.processNumbers(numbers, chunkSize);
+              System.out.println("El resulatado de la suma es: " + result);
         } catch (InterruptedException | ExecutionException e) {
             e.printStackTrace();
         }
